@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografía: Conceptualización Senalogía</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        sena: {
+                            orange: '#ff6600',
+                            green: '#39A900'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-orange-50 text-gray-900 min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-sena-orange mb-4">Infografía: Conceptualización Senalogía</h1>
+            <p class="text-xl text-sena-green">Servicio Nacional de Aprendizaje</p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- ¿Qué es el SENA? -->
+            <section class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold text-sena-orange mb-4">¿Qué es el SENA?</h2>
+                <ul class="list-disc pl-5 space-y-2">
+                    <li>Establecimiento público nacional adscrito al Ministerio del Trabajo.</li>
+                    <li>Proporciona formación profesional integral gratuita a millones de colombianos.</li>
+                    <li>Funciona en alianza con el Gobierno, empresas y trabajadores, apoyando el desarrollo económico, científico y social del país.</li>
+                </ul>
+            </section>
+
+            <!-- Misión y Visión -->
+            <section class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold text-sena-green mb-4">Misión y Visión</h2>
+                <h3 class="font-semibold mb-2">Misión:</h3>
+                <p class="mb-4">Contribuir al desarrollo social y técnico de los trabajadores, facilitando su inserción en actividades productivas que impulsen la economía del país.</p>
+                <h3 class="font-semibold mb-2">Visión (2026):</h3>
+                <p>Ser líderes en la cualificación del talento humano a nivel nacional e internacional, enfocados en formación, empleo y emprendimiento.</p>
+            </section>
+
+            <!-- Símbolos Institucionales -->
+            <section class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold text-sena-orange mb-4">Símbolos Institucionales</h2>
+                <div class="flex flex-col md:flex-row items-center md:items-start gap-4">
+                    <img src="https://certificadossena.net/wp-content/uploads/2022/09/escudo-del-sena-1024x1024.jpg" 
+                         alt="Escudo del SENA" 
+                         class="w-40 h-40 object-contain mb-4 md:mb-0">
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li><strong>Escudo:</strong> Representa los sectores económicos (industria, comercio y sector primario).</li>
+                        <li><strong>Bandera:</strong> Fondo blanco con el escudo en el centro.</li>
+                        <li><strong>Logosímbolo:</strong> Representa el enfoque de formación integral donde el individuo es protagonista de su aprendizaje.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Historia del SENA -->
+            <section class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold text-sena-green mb-4">Historia del SENA</h2>
+                <ul class="list-disc pl-5 space-y-2 mb-4">
+                    <li>Fundado en 1957 por Rodolfo Martínez Tono, con el propósito de ofrecer formación técnica y profesional.</li>
+                    <li>Desde sus inicios, el SENA ha sido un motor de desarrollo, inaugurando centros en todo el país y colaborando internacionalmente para el intercambio de conocimiento.</li>
+                </ul>
+                <div class="aspect-w-16 aspect-h-9">
+                    <iframe 
+                        class="w-full h-full"
+                        src="https://www.youtube.com/embed/B3b7T6-h8i4" 
+                        title="Historia del SENA" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Principios Institucionales -->
+            <section class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold text-sena-orange mb-4">Principios Institucionales</h2>
+                <ul class="list-disc pl-5 space-y-2">
+                    <li><strong>Responsabilidad Social:</strong> Programas orientados al empleo y la inclusión social.</li>
+                    <li><strong>Innovación y Transferencia de Tecnología:</strong> Continuamente desarrollando proyectos para mejorar la productividad y la competitividad de Colombia.</li>
+                </ul>
+            </section>
+
+            <!-- Cultura Institucional -->
+            <section class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="text-2xl font-bold text-sena-green mb-4">Cultura Institucional</h2>
+                <p>El SENA se enfoca en formar trabajadores con principios de calidad, innovación y servicio, promoviendo la educación continua, el desarrollo tecnológico y la internacionalización.</p>
+            </section>
+        </div>
+
+        <footer class="mt-12 text-center text-gray-600">
+            <p>Infografía creada por Misael Mondragon Lenis</p>
+        </footer>
+    </div>
+</body>
+</html>
